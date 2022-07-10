@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>testCollaba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <section class="section header">
+        <h1>Управление рассылками</h1>
+        <h2>Здравствуйте, Андрей. Выберите, категории писем, от которых хотите отписаться.
+            Но пожалуйста, исключите только те категории, которые действительно вас не интересуют.
+            Мы обещаем слать только полезные письма где 😊
+        </h2>
+    </section>
+
+    <section class="categories-section">
+        <h3>Общие уведомления</h3>
+        <div class="category">
+            <div class="category-inner">
+                <p class="category-text">Приветственная серия</p>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3'/>
+                </div>
+            </div>
+            <p class="category-info">4 полезных и емких письма в течение месяца</p>
+        </div>
+        <div class="category">
+            <div class="category-inner">
+                <p class="category-text">Образовательные вебинары</p>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                </div>
+            </div>
+            <p class="category-info">Бесплатные вебинары проходят 1 раз в 2 недели. Вы будете получать 2 письма с
+                напоминанием
+                о предстоящем вебинаре</p>
+        </div>
+        <div class="category">
+            <div class="category-inner">
+                <p class="category-text text-info">Личные сообщения
+                    <img class="category-img-info" src="images/info.png" alt="">
+                    <span class="category-text-label">
+                        Письма об обновлениях
+                        и улучшениях платформы
+                    </span>
+                </p>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                </div>
+            </div>
+            <div class="iSelect fixedWidth rounded">
+                <label for="chk">
+                    <input aria-hidden="true" id="chk" type="checkbox">
+                    <span class="select-label" title="Select the model">Мгновенно</span>
+                    <ul role="listbox">
+                        <li role="option">Мгновенно</li>
+                        <li role="option">1 раз в день</li>
+                        <li role="option">Отключить</li>
+                    </ul>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <h3>Уведомление по Сайтам</h3>
+        <div class="category">
+            <div class="category-inner">
+                <p class="category-text">Новости</p>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3'/>
+                </div>
+            </div>
+        </div>
+
+        <h4>Поисковые агенты</h4>
+        <p>Бизнес</p>
+        <div class="category">
+            <div class="category-inner">
+                <div class="subcategories-wrapper">
+                    <div class="subcategories">
+                        <div class="subcategory">
+                            <span>Seo</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                        <div class="subcategory">
+                            <span>Продвижение</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                        <div class="subcategory">
+                            <span>Аналитика</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <a class="subcategory-link" href="#">Детали</a>
+                </div>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3'/>
+                </div>
+            </div>
+            <p class="category-info">Поисковый агент присылает 1 письмо в неделю и только при условии, что найдены
+                новые площадки</p>
+        </div>
+
+        <p>123</p>
+        <div class="category">
+            <div class="category-inner">
+                <div class="subcategories-wrapper">
+                    <div class="subcategories">
+                        <div class="subcategory">
+                            <span>Seo</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                        <div class="subcategory">
+                            <span>Продвижение</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <a class="subcategory-link" href="#">Детали</a>
+                </div>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                </div>
+            </div>
+        </div>
+
+        <p>SEO</p>
+        <div class="category">
+            <div class="category-inner">
+                <div class="subcategories-wrapper">
+                    <div class="subcategories">
+                        <div class="subcategory">
+                            <span>Seo</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                        <div class="subcategory">
+                            <span>Продвижение</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                        <div class="subcategory">
+                            <span>Аналитика</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <a class="subcategory-link" href="#">Детали</a>
+                </div>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3'/>
+                </div>
+            </div>
+        </div>
+
+        <p>Бурж ссылки</p>
+        <div class="category">
+            <div class="category-inner">
+                <div class="subcategories-wrapper">
+                    <div class="subcategories">
+                        <div class="subcategory">
+                            <span>Биржи ссылок: Не обнаружен</span>
+                            <button class="btn-close"><img src="images/close.svg" alt=""></button>
+                        </div>
+                    </div>
+                    <a class="subcategory-link" href="#" >Детали</a>
+                </div>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3'/>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="close-block">Рекламные компании <img src="images/arrow-down.png" alt="arrow-down"></h4>
+        <div class="category-box">
+            <div class="category">
+                <div class="category-inner">
+                    <p class="category-text">Строительство домов в Москве 2</p>
+                    <div class="category-check controls">
+                        <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                    </div>
+                </div>
+                <div class="iSelectSecond fixedWidth rounded">
+                    <label for="chk2">
+                        <input aria-hidden="true" id="chk2" type="checkbox">
+                        <span class="select-label" title="Select the model">Мгновенно</span>
+                        <ul role="listbox">
+                            <li role="option">Мгновенно</li>
+                            <li role="option">1 раз в день</li>
+                            <li role="option">Отключить</li>
+                        </ul>
+                    </label>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-inner">
+                    <p class="category-text">Строительство домов в Москве 1</p>
+                    <div class="category-check controls">
+                        <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                    </div>
+                </div>
+                <div class="iSelectThird fixedWidth rounded">
+                    <label for="chk3">
+                        <input aria-hidden="true" id="chk3" type="checkbox">
+                        <span class="select-label" title="Select the model">Мгновенно</span>
+                        <ul role="listbox">
+                            <li role="option">Мгновенно</li>
+                            <li role="option">1 раз в день</li>
+                            <li role="option">Отключить</li>
+                        </ul>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="categories-section">
+        <h3>Уведомления по Телеграму</h3>
+        <div class="category">
+            <div class="category-inner">
+                <p class="category-text">Новости</p>
+                <div class="category-check controls">
+                    <input class='toggle' type="checkbox" name='check-3' checked="checked"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="button-wrapper">
+        <button class="submit-btn default-btn main-toggle">По умолчанию</button>
+        <button class="submit-btn save-btn" id="myBtn">Сохранить изменения</button>
+    </section>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content save-btn-modal ">
+            <span class="close">&times;</span>
+            <p >Вы уверены?</p>
+            <div>
+                <button class="modal-btn" id="btnModal">Да</button>
+                <button class="modal-btn">Нет</button>
+            </div>
+            <div class="save-changes">Вы сохранили изменения <img src="images/save.svg" alt="save"></div>
+        </div>
+    </div>
+
+    <!-- Details modal -->
+    <div id="detModal" class="modal">
+        <div class="modal-content det-modal">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
